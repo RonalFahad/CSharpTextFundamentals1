@@ -22,15 +22,15 @@ namespace CSharpTextFundamentals
             string dummyString = "Bangladesh!"; // Double Quotation " "
             char dummyChar = ' '; // Single Quotation ' '
             Console . WriteLine ( $"String: {dummyString}\n" +
-                              $"Character: {dummyChar}\n" );
+                                  $"Character: {dummyChar}\n" );
 
             // string index
             dummyChar = dummyString [ 0 ]; // index 0, 1st char
             Console . WriteLine ( $"First Character of " +
-                              $"{dummyString}: {dummyChar}" );
+                                  $"{dummyString}: {dummyChar}" );
             dummyChar = dummyString [ 10 ]; // index 10, 11th char
             Console . WriteLine ( $"Last Character of " +
-                              $"{dummyString}: {dummyChar}\n" );
+                                  $"{dummyString}: {dummyChar}\n" );
 
             // string Declaration
             string greeting = "Hello";
@@ -58,8 +58,8 @@ namespace CSharpTextFundamentals
                                   + " " + greeting + " " + name;
 
             Console . WriteLine ( $"{concatenation1}\n" +
-                              $"{concatenation2}\n" +
-                              $"{concatenation3}\n" );
+                                  $"{concatenation2}\n" +
+                                  $"{concatenation3}\n" );
 
             // string.Format to Avoid Errors Caused by Concatenation
             string output = string.Format("{0}", concatenation1,
@@ -69,8 +69,8 @@ namespace CSharpTextFundamentals
 
             // Console.WriteLine can also be Utilized to Avoid Concatenation
             Console . WriteLine ( "{0}" , concatenation1 ,
-                              "{1}" , concatenation2 ,
-                              "{3}" , concatenation3 );
+                                  "{1}" , concatenation2 ,
+                                  "{3}" , concatenation3 );
             Console . WriteLine ( );
 
             // Quote as a char in string.Format
